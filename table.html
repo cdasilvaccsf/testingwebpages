@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table</title>
+        <meta name="description" content="Table with CSS">
+        <link rel="stylesheet" href="styleHTML.css">
+        <style>
+            body { background-color: lightblue;}
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            th {
+                color: blue;
+            }
+            tr:nth-child(even) {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>Table with CSS</h1></header>
+        <table>
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Product 1</td>
+                <td>1.00</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>2.00</td>   
+            </tr>
+            <tr>
+                <td>Product 3</td>
+                <td>3.00</td>   
+            </tr>
+        </table>
